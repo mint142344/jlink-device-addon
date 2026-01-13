@@ -17,3 +17,14 @@ Open cmsis pack and add device info to JLink, used to support JLink flasher
 ## Notice
 
 Recommended for using it in `Embedded IDE`
+
+## Initial JLinkDevices.xml
+
+3.14+ 能利用 'Deferred Evaluation' 特性跳过 NameError 报错
+
+First, Create `~/.config/SEGGER/JLinkDevices/JLinkDevices.xml` with content:
+
+```xml
+<Database>
+</Database>
+```

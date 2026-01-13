@@ -1,0 +1,23 @@
+[project]
+name = "jlink-device-addon"
+version = "0.1.0"
+description = "JLink Pack Converter (Python 3.14 Edition)"
+readme = "README.md"
+requires-python = ">=3.14"
+
+dependencies = [
+    "click",
+    "colorama",
+    "intervaltree",
+    "lxml",
+    "naturalsort",
+    "prettytable",
+    "pyelftools",
+    "pyyaml",
+    "setuptools",
+    "six",
+    "sortedcontainers",
+    "typing-extensions",
+    "wcwidth",
+]
+
